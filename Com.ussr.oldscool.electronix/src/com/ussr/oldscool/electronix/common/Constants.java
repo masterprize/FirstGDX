@@ -1,5 +1,7 @@
 package com.ussr.oldscool.electronix.common;
 
+import com.badlogic.gdx.utils.Json;
+
 public final class Constants {
 
 	public final class Banners {

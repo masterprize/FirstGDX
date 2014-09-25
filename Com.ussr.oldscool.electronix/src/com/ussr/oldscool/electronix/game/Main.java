@@ -4,9 +4,14 @@ import com.badlogic.gdx.backends.android.AndroidApplication;
 
 public class Main extends AndroidApplication {
 
+	public static Game screenController;
+	
 	 public void onCreate (android.os.Bundle savedInstanceState) {
          super.onCreate(savedInstanceState);
-         initialize(new Gameplay(), false);
+         
+         Main.screenController = new Game();
+         initialize(Main.screenController, false);
+         
 	 }
 	
 }
